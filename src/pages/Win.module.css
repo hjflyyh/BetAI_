@@ -1,0 +1,113 @@
+.uiFlatSelect01a15Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.cash1Icon {
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  z-index: 1;
+}
+.uiFlatSelect01a15Parent {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  background-image: url(/public/ui-flat-select-01a1-5@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.tSubtitle {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.79px;
+  line-height: 31px;
+  color: inherit;
+}
+.tSubtitleWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.frameParent,
+.tSubtitleWrapper,
+.window,
+.windowInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.window,
+.windowInner {
+  box-sizing: border-box;
+}
+.windowInner {
+  width: 203px;
+  flex-direction: row;
+  padding: 0 var(--padding-mid) var(--padding-base);
+}
+.window {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 25px;
+  gap: 6px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-floralwhite);
+  font-family: var(--font-pixelify-sans);
+}
+.blankLine,
+.inTheHeart,
+.whatDoYouLookLikeAtTheM {
+  margin: 0;
+}
+.tContent {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  max-width: 100%;
+}
+.tContentWrapper,
+.win {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.tContentWrapper {
+  width: 409px;
+  flex-direction: row;
+  padding: 0 var(--padding-mid);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-floralwhite);
+  font-family: var(--font-pixelify-sans);
+}
+.win {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-dimgray);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-6xs) 97px;
+  gap: var(--gap-5xs);
+  line-height: normal;
+  letter-spacing: normal;
+}

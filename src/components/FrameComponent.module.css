@@ -1,0 +1,133 @@
+.uiFlatBanner01Upward1Icon {
+  height: 66px;
+  width: 198px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.tFeatureTitle01 {
+  text-decoration: none;
+  height: 39.3px;
+  width: 132px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 28px;
+  font-family: var(--font-b);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameWrapper,
+.uiFlatBanner01Upward1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.uiFlatBanner01Upward1Parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lgi) var(--padding-smi) var(--padding-5xs-7);
+  background-color: transparent;
+  flex: 1;
+  justify-content: flex-end;
+  background-image: url(/public/ui-flat-banner-01-upward-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameWrapper {
+  width: 202px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.uiFlatSelect01a11Icon {
+  position: absolute;
+  top: 260px;
+  left: 254px;
+  width: 24px;
+  height: 25px;
+  object-fit: contain;
+  z-index: 1;
+}
+.uiFlatSelect01a12Icon,
+.uiFlatSelect01a13Icon,
+.uiFlatSelect01a14Icon {
+  position: absolute;
+  top: 261px;
+  left: 0;
+  width: 23px;
+  height: 24px;
+  object-fit: contain;
+  z-index: 1;
+}
+.uiFlatSelect01a12Icon,
+.uiFlatSelect01a14Icon {
+  top: 0;
+}
+.uiFlatSelect01a12Icon {
+  left: 252px;
+  width: 26px;
+  height: 26px;
+}
+.uiFlatFrame02Standard1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.image37Icon {
+  position: absolute;
+  width: calc(100% - 16px);
+  top: 8px;
+  right: 8px;
+  left: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 240px;
+  object-fit: cover;
+  z-index: 2;
+}
+.uiFlatFrame02Standard1Parent {
+  position: absolute;
+  width: calc(100% - 22px);
+  top: 15px;
+  right: 11px;
+  left: 11px;
+  height: 256px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.uiFlatSelect01a11Parent {
+  height: 285px;
+  flex: 1;
+  position: relative;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameContainer,
+.frameParent,
+.winInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xl);
+}
+.winInner {
+  width: 312px;
+  flex-direction: row;
+  padding: 0 var(--padding-mid);
+  box-sizing: border-box;
+}

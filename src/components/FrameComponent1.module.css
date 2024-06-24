@@ -1,0 +1,81 @@
+.uiFlatSelect01a11Icon {
+  position: absolute;
+  top: 260px;
+  left: 254px;
+  width: 24px;
+  height: 25px;
+  object-fit: contain;
+  z-index: 1;
+}
+.uiFlatSelect01a12Icon,
+.uiFlatSelect01a13Icon,
+.uiFlatSelect01a14Icon {
+  position: absolute;
+  top: 261px;
+  left: 0;
+  width: 23px;
+  height: 24px;
+  object-fit: contain;
+  z-index: 1;
+}
+.uiFlatSelect01a12Icon,
+.uiFlatSelect01a14Icon {
+  top: 0;
+}
+.uiFlatSelect01a12Icon {
+  left: 252px;
+  width: 26px;
+  height: 26px;
+}
+.uiFlatFrame02Standard1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.image36Icon {
+  position: absolute;
+  width: calc(100% - 17px);
+  top: 8px;
+  right: 9px;
+  left: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 240px;
+  object-fit: cover;
+  z-index: 2;
+}
+.uiFlatFrame02Standard1Parent {
+  position: absolute;
+  width: calc(100% - 22px);
+  top: 15px;
+  right: 11px;
+  left: 11px;
+  height: 256px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.uiFlatSelect01a11Parent {
+  height: 285px;
+  flex: 1;
+  position: relative;
+}
+.frameWrapper,
+.winInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex: 1;
+}
+.winInner {
+  width: 316px;
+  padding: 0 var(--padding-lgi) var(--padding-17xl);
+  box-sizing: border-box;
+}
